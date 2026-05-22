@@ -5,7 +5,7 @@ import Topbar from "./components/layout/Topbar";
 import Notification from "./components/Notification";
 
 import HomePage from "./pages/HomePage";
-import ZonesPage from "./pages/ZonesPage";
+import ZonesPage from "./pages/ZonePage";
 import AIPage from "./pages/AIPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import SchedulePage from "./pages/SchedulePage";
@@ -27,9 +27,10 @@ export default function App() {
     }, 3000);
   };
 
-  // 📄 Render Different Pages
+  // 📄 Render Pages
   const renderPage = () => {
     switch (page) {
+
       case "zones":
         return (
           <ZonesPage
@@ -48,7 +49,9 @@ export default function App() {
         );
 
       case "analytics":
-        return <AnalyticsPage />;
+        return (
+          <AnalyticsPage />
+        );
 
       case "schedule":
         return (
@@ -107,6 +110,7 @@ export default function App() {
         <main className="flex-1 overflow-y-auto p-4 md:p-6">
           {renderPage()}
         </main>
+
       </div>
 
       {/* NOTIFICATION */}
