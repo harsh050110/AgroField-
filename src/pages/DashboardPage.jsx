@@ -1,4 +1,4 @@
-export function DashboardPage({zones,setZones,alerts,setAlerts,notify}) {
+export  default function DashboardPage({zones,setZones,alerts,setAlerts,notify}) {
   const [selZone,setSelZone] = useState("A");
   const sel = zones.find(z=>z.id===selZone);
   const fc = FORECASTS[selZone];

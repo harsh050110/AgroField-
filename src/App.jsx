@@ -5,7 +5,7 @@ import Topbar from "./components/layout/Topbar";
 import Notification from "./components/Notification";
 
 import HomePage from "./pages/HomePage";
-import ZonesPage from "./pages/ZonePage";
+import ZonePage from "./pages/ZonePage";
 import AIPage from "./pages/AIPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import SchedulePage from "./pages/SchedulePage";

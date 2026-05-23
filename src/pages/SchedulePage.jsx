@@ -1,4 +1,4 @@
-export function SchedulePage({zones,notify}) {
+export default function SchedulePage({zones,notify}) {
   const [schedules,setSchedules] = useState([
     {id:1,time:"08:00",zone:"E",dur:45,vol:22,status:"running",source:"ai"},
     {id:2,time:"09:15",zone:"F",dur:30,vol:15,status:"running",source:"manual"},

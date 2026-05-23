@@ -1,4 +1,4 @@
-export function ZonesPage({zones,setZones,notify}) {
+export default function ZonePage({zones,setZones,notify}) {
   const [sel,setSel] = useState(null);
   const z = sel ? zones.find(z=>z.id===sel) : null;
 

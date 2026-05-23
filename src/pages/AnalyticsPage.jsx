@@ -1,4 +1,4 @@
-export function AnalyticsPage() {
+export default function AnalyticsPage() {
   return (
     <div style={{overflowY:"auto",height:"100%",padding:24}}>
       <div style={{display:"grid",gridTemplateColumns:"repeat(4,1fr)",gap:14,marginBottom:20}}>

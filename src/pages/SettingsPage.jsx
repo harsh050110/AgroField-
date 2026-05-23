@@ -1,4 +1,4 @@
-export function SettingsPage({notify}) {
+export default function SettingsPage({notify}) {
   const [settings,setSettings] = useState({
     autoMode:true, smsAlerts:true, emailAlerts:false,
     critThreshold:20, lowThreshold:35,
