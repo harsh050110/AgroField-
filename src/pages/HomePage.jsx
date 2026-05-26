@@ -1,4 +1,4 @@
-export function HomePage({setPage}) {
+export default function HomePage({setPage}) {
   return (
     <div style={{overflowY:"auto",height:"100%"}}>
       {/* Hero */}
